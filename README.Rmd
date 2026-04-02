@@ -19,9 +19,9 @@ devtools::load_all()
 <!-- badges: start -->
 <!-- badges: end -->
 
-The hsstools R package contains a collection of functions to use during the data wrangling / analysis process for the Human Security Survey (Iraq + South Sudan). Its initial purpose was to expedite the creation of formatted contingency tables, and the largest part of the functions serve this purpose. However, a number of additional functions have been added with the purpose of automating the analysis process. These functions broadly fall under the umbrella of data cleaning, data auditing, and data formatting. 
+The hsstools R package contains a collection of functions to use during the data wrangling / analysis process for the Human Security Survey (Iraq, South Sudan & Burkina Faso). Its initial purpose was to expedite the creation of formatted contingency tables, and the largest part of the functions serve this purpose. However, a number of additional functions have been added with the purpose of automating the analysis process. These functions broadly fall under the umbrella of data cleaning, data auditing, and data formatting. 
 
-The package borrows a couple of ideas from the existing koboloadeR package, but most things are implemented in a more simplified manner and tailored more specifically to the current HSS data cleaning/analysis process. It might be worth checking the [KoboloadeR documentation](https://unhcr.github.io/koboloadeR/docs/)  to see what it has to offer. 
+The package historically borrows a couple of ideas from the existing koboloadeR package, but most things are implemented in a more simplified manner and tailored more specifically to the current HSS data cleaning/analysis process. At this stage, very is very little overlap, but it might be worth checking the [KoboloadeR documentation](https://unhcr.github.io/koboloadeR/docs/)  to see what it has to offer. 
 
 Most functions are also made to work alongside the now obsolete Stata-based data cleaning and -analysis process.
 
@@ -30,7 +30,8 @@ You can install the hsstools package from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("ALKS/hsstools")
+devtools::install_github("PAXPoC/hsstools")
+# You may need to force the installation in some specific cases. 
 ```
 
 ## Purpose of scripts & tools
