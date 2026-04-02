@@ -1,12 +1,12 @@
 Package: hsstools
 Title: Simplify the HSS Data Process
-Version: 2.0.0
+Version: 3.0.0
 Authors@R: c(person("Renze", "Terpstra", , "mail@renzeterpstra.com", role = c("aut")), person("Abdullatif", "Sleibi", , "latif.sleibi@gmail.com", role = c("aut", "cre")))
 Description: A collection of functions to simplify and streamline the process of cleaning and analysing HSS data.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Imports: 
     dplyr,
     flextable,
