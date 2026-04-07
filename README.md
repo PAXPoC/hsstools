@@ -8,7 +8,7 @@
 
 The hsstools R package contains a collection of functions to use during
 the data wrangling / analysis process for the Human Security Survey
-(Iraq + South Sudan). Its initial purpose was to expedite the creation
+(Iraq + South Sudan + Burkina Faso). Its initial purpose was to expedite the creation
 of formatted contingency tables, and the largest part of the functions
 serve this purpose. However, a number of additional functions have been
 added with the purpose of automating the analysis process. These
@@ -18,7 +18,8 @@ auditing, and data formatting.
 The package borrows a couple of ideas from the existing koboloadeR
 package, but most things are implemented in a more simplified manner and
 tailored more specifically to the current HSS data cleaning/analysis
-process. It might be worth checking the [KoboloadeR
+process. At this stage, it's rather distinct from the koboloadeR package, but 
+itt might be worth checking the [KoboloadeR
 documentation](https://unhcr.github.io/koboloadeR/docs/) to see what it
 has to offer.
 
@@ -32,7 +33,7 @@ with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("ALKS/hsstools")
+devtools::install_github("PAXPoC/hsstools")
 ```
 
 ## Purpose of scripts & tools
